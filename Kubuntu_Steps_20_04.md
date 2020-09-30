@@ -150,7 +150,11 @@ kubuntu%
 sudo usermod -s /usr/bin/zsh $(whoami)
 kubuntu%
 ```
-Now reboot your machine.
+Now reboot your machine, in your terminal run command.
+```shell
+reboot
+```
+
 
 
 
