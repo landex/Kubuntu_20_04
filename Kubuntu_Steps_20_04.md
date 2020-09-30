@@ -51,8 +51,20 @@ If you type *zsh* this window will be displayed, is only you follow the window i
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_134831.png" alt="drawing" width="400"/>
 
+Version of ***zsh*** installed.
+```shell
+youruser@kubuntu:~$ zsh --version
+zsh 5.8 (x86_64-ubuntu-linux-gnu)
+youruser@kubuntu:~$ 
+```
+### Undestand the ***ZSH FILES***
+
 ## References
-***Instalation*** >>> https://userbase.kde.org/Kubuntu/Installation
+***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
 
 
-***Git*** >>> https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux
+***GIT*** >>> https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux
+
+***ZSH*** >>> https://linuxhint.com/install_zsh_shell_ubuntu_1804/ 
+
+
