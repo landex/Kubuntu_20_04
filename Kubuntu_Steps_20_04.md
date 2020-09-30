@@ -155,8 +155,11 @@ Now reboot your machine, in your terminal run command.
 reboot
 ```
 
+### Colorful Terminal
+Syntax Highlighting
 
 
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_205609.png" alt="drawing" width="400"/>
 
 
 ## References
