@@ -49,8 +49,10 @@ If you type *zsh* this window will be displayed, is only you follow the window i
 
 ***Type q to quit***
 
-
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_134831.png" alt="drawing" width="400"/>
 
 ## References
 ***Instalation*** >>> https://userbase.kde.org/Kubuntu/Installation
+
+
 ***Git*** >>> https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux
