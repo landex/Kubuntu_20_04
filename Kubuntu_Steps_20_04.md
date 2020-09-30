@@ -57,7 +57,39 @@ youruser@kubuntu:~$ zsh --version
 zsh 5.8 (x86_64-ubuntu-linux-gnu)
 youruser@kubuntu:~$ 
 ```
+
+***Atention***
+
 ### Undestand the ZSHELL files configuration
+
+Access your home directory *cd ~ * To confirm if you stay in your home directory.
+```shell
+kubuntu% pwd
+/home/yourusername
+kubuntu% 
+```
+
+
+**.zprofile** - is sourced on all invocations of the shell, unless the -f option is set. It should contain commands to set the command search path, plus other important environment variables run command below to create empty file
+
+```shell
+touch .zprofile
+```
+
+**.zshrc** - is sourced in interactive shells. It should contain commands to set up aliases, functions, options, key bindings, etc.
+```shell
+touch .zshrc
+```
+
+**.zshenv** - should not contain commands that produce output or assume the shell is attached to a tty. run command below to create empty file
+```shell
+touch .zshenv
+```
+
+**.zhistory** - to save command history.
+```shell
+touch .zhistory
+```
 
 ## References
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
