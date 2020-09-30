@@ -26,5 +26,4 @@ sudo apt upgrade -y
 ```
 
 ## References
-### Instalation
-https://userbase.kde.org/Kubuntu/Installation
+***Instalation*** -> https://userbase.kde.org/Kubuntu/Installation
