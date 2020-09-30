@@ -60,6 +60,7 @@ youruser@kubuntu:~$
 ```
 
 ***Atention***
+*If you can use the guided configuration, type **ksh** in your terminal due this the configuration window will be displayed.*
 
 ### Undestand the ZSHELL files configuration
 
@@ -92,6 +93,68 @@ touch .zshenv
 touch .zhistory
 ```
 
+Files created.
+```shell
+-rw-rw-r--  1 youruser youruser      0 set 30 19:21 .zprofile
+-rw-rw-r--  1 youruser youruser      0 set 30 19:21 .zshrc
+-rw-rw-r--  1 youruser youruser      0 set 30 19:21 .zshenv
+-rw-rw-r--  1 youruser youruser      0 set 30 19:21 .zhistory
+```
+### My .zshrc
+**History of commands**
+```shell
+kubuntu% echo "# History configuration" >> .zshrc
+kubuntu% echo HISTSIZE=1000 >> .zshrc 
+kubuntu% echo HISTFILE=~/.zhistory >> .zshrc
+kubuntu% echo SAVEHIST=1000 >> .zshrc
+kubuntu% 
+```
+File after this configuration
+```shell
+kubuntu% more .zshrc 
+# History configuration
+HISTSIZE=1000
+HISTFILE=~/.zhistory
+SAVEHIST=1000
+kubuntu% 
+```
+After changes in *.zshrc* you need reload file to Konsole use the new configuration, so run command below.
+```shell
+kubuntu% source .zshrc 
+kubuntu% 
+```
+To facility this, create the alias below.
+```shell
+echo "# My aliases" >> .zshrc
+echo alias zload="'source ~/.zshrc'" >> .zshrc
+```
+### Syntax highlighting
+To install syntax highlightin run command below.
+```shell
+sudo apt install zsh-syntax-highlighting -y
+```
+To enable syntax highlighting.
+```shell
+echo source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh >> ~/.zshrc
+```
+### Set up Zshell as default
+Run command below, to dicovery the directory of installation of zsh.
+```shell
+kubuntu% type zsh
+zsh is hashed (/usr/bin/zsh)
+kubuntu%
+```
+To set up run command below.
+```shell
+kubuntu%
+sudo usermod -s /usr/bin/zsh $(whoami)
+kubuntu%
+```
+Now reboot your machine.
+
+
+
+
 ## References
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
 
@@ -99,5 +162,7 @@ touch .zhistory
 ***GIT*** >>> https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux
 
 ***ZSH*** >>> https://linuxhint.com/install_zsh_shell_ubuntu_1804/ 
+
+***ZHSELL FILES*** >>> http://zsh.sourceforge.net/Intro/intro_3.html
 
 
