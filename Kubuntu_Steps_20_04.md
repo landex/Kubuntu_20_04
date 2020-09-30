@@ -24,6 +24,19 @@ Now run command to perform upgrade.
 ```shell
 sudo apt upgrade -y
 ```
+### Install ***GIT***
+Run command to install git.
+```shell
+sudo apt install git -y
+```
+
+### Install ***ZSHELL***
+
+Installing *zshell*, for me is best shell of *Linux*.
+```shell
+sudo apt install zsh -y
+```
+
 
 ## References
-***Instalation*** -> https://userbase.kde.org/Kubuntu/Installation
+***Instalation*** >>> https://userbase.kde.org/Kubuntu/Installation
