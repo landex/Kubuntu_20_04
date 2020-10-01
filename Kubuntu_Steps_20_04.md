@@ -300,7 +300,7 @@ sudo apt install oracle-java11-installer-local -y
 Follow instrunction show in window, ok?
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131223.png" alt="drawing" width="250"/>
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131243.png" alt="drawing" width="250"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131242.png" alt="drawing" width="250"/>
 
 
 ## Ruby 
