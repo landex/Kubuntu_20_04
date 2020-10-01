@@ -318,7 +318,7 @@ Now in this case we need make a download of jdk 11 from Oracle site and copy to 
 
 Make download of this file - ***jdk-11.0.8_linux-x64_bin.tar.gz***
 
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131242.png" alt="drawing" width="250"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_200523.png" alt="drawing" width="250"/>
 
 ## Ruby 
 
