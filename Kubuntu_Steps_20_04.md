@@ -207,6 +207,8 @@ Testing if work, open a **.zshrc** file and validate that the file is colorful.
 
 ### Configuration of PS1 - Prompt String One
 
+Table of configurations possible to **zshell**
+
 | Sequence  | Printed |
 |-----------|---------|
 | %T	    | System time (HH:MM)  |
@@ -221,6 +223,33 @@ Testing if work, open a **.zshrc** file and validate that the file is colorful.
 | %m	    | The computer's hostname (truncated before the first period)  |
 | %l	    | The current tty  |
 
+The Configuration.
+
+```shell
+export PS1="[%n@%M] "
+```
+Output after runned command above
+```shell
+[youruser@ubuntu]
+```
+To use this definitely, you added the configuration in your *.zshrc* file.
+```shell
+echo export PS1="[%n@%M] " >> .zshrc
+```
+
+You can added colors in your **zshell**.
+
+Coloar avaiable.
+| Name  | Number  |
+|-------|---------|
+| black | 	0 |
+| red 	|1  |
+| green |	2 |
+| yellow| 3 |
+| blue 	|4  |
+| magenta| 5|
+| cyan 	|6|
+| white | 7|
 
 ## References:
 
@@ -241,4 +270,8 @@ Testing if work, open a **.zshrc** file and validate that the file is colorful.
 
 ***VIM*** >>> https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/
 
+
 ***PS1*** >>> https://wiki.gentoo.org/wiki/Zsh/Guide
+
+
+***COLORS IN PS1*** >>> https://wiki.archlinux.org/index.php/zsh
