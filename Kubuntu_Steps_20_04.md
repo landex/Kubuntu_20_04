@@ -172,7 +172,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 ```
-Result.
+Result, but before we need reload the ***.zshrc*** to effective configuration.
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="250"/>
 
