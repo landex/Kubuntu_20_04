@@ -182,8 +182,13 @@ Result.
 
 ***GIT*** >>> https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux
 
+
 ***ZSH*** >>> https://linuxhint.com/install_zsh_shell_ubuntu_1804/ 
 
+
 ***ZHSELL FILES*** >>> http://zsh.sourceforge.net/Intro/intro_3.html
+
+
+***COLORS*** >>> https://www.cyberciti.biz/faq/turn-off-color-in-linux-terminal-bash-session/
 
 
