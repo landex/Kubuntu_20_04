@@ -193,10 +193,33 @@ Add this configurations in *.vimrc* to turn on line number and syntax highlighti
 echo syntax on >> .vimrc
 echo set number >> .vimrc
 ```
+
+Add an alias to **vim**, to when you type **vi** system call the **vim**.
+```shell
+echo alias vi='vim' >> .zshrc
+```
+
 Testing if work, open a **.zshrc** file and validate that the file is colorful.
 
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_212035.png" alt="drawing" width="250"/>
+
+
+### Configuration of PS1 - Prompt String One
+
+| Sequence  | Printed |
+|-----------|---------|
+| %T	    | System time (HH:MM)  |
+| %*	    | System time (HH:MM:SS) |
+| %D	    | System date (YY-MM-DD) |
+| %n	    | Current username |
+| %B - %b |  Begin - end bold print  |
+| %U - %u |  Begin - end underlining |
+| %d	    | The current working directory  |
+| %~	    | The current working directory, relative to the home directory  |
+| %M	    | The computer's hostname  |
+| %m	    | The computer's hostname (truncated before the first period)  |
+| %l	    | The current tty  |
 
 
 ## References:
@@ -218,4 +241,4 @@ Testing if work, open a **.zshrc** file and validate that the file is colorful.
 
 ***VIM*** >>> https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/
 
-
+***PS1*** >>> https://wiki.gentoo.org/wiki/Zsh/Guide
