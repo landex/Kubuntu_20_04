@@ -176,7 +176,31 @@ Result.
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="250"/>
 
-## References
+### VIM or VI???
+I prefer *vim*, for why? For why like... :smiley:
+But I use, *vim* only to quick edition of scripts and files, to create scripts and other programs I prefer **VSCode**.
+Installing **vim**
+
+```shell
+kubuntu% sudo apt install vim -y
+```
+So after installation, we need create a file in our home called *.vimrc*
+```shell
+touch .vimrc
+```
+Add this configurations in *.vimrc* to turn on line number and syntax highlighting.
+```shell
+echo syntax on >> .vimrc
+echo set number >> .vimrc
+```
+Testing if work, open a **.zshrc** file and validate that the file is colorful.
+
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_212035.png" alt="drawing" width="250"/>
+
+
+## References:
+
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
 
 
@@ -190,5 +214,8 @@ Result.
 
 
 ***COLORS*** >>> https://www.cyberciti.biz/faq/turn-off-color-in-linux-terminal-bash-session/
+
+
+***VIM*** >>> https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/
 
 
