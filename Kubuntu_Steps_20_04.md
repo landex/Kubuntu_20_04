@@ -159,8 +159,22 @@ reboot
 Syntax Highlighting
 
 
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_205609.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_205609.png" alt="drawing" width="50"/>
 
+Now we can add more alias to more colors in terminal.
+In your *.zshrc* file add lines below.
+```shell
+# Alias to added color outputs
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+```
+Result.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="50"/>
 
 ## References
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
