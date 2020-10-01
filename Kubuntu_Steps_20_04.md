@@ -256,6 +256,13 @@ My PS1 zsh.
 PS1=%F{cyan}[%n%f%F{magenta}@%M]%f %F{yellow}[%~]%f 
 ```
 
+## Java from Oracle
+Now we will install Java 11 LTS, I prefer Java from Oracle stead of OpenJDK. To install Java from Oracle follow steps below.
+
+## Ruby 
+
+## VSCode the best editor for me
+
 ## References:
 
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
