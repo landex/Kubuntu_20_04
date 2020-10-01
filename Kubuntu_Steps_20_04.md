@@ -320,6 +320,71 @@ Make download of this file - ***jdk-11.0.8_linux-x64_bin.tar.gz***
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_200523.png" alt="drawing" width="250"/>
 
+Copy file downloaded to directory - ***/var/cache/oracle-jdk11-installer-local***
+```shell
+sudo cp jdk-11.0.8_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local 
+```
+After this run command to install jdk 11 LTS.
+```shell
+sudo apt-get install oracle-java11-installer-local -y
+```
+Output of indicate that the installation.
+```shell
+sudo apt-get install oracle-java11-installer-local -y
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+oracle-java11-installer-local is already the newest version (11.0.8-1~linuxuprising0).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+1 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Setting up oracle-java11-installer-local (11.0.8-1~linuxuprising0) ...
+Installing from local file /var/cache/oracle-jdk11-installer-local/jdk-11.0.8_linux-x64_bin.tar.gz
+
+You may want to remove any previous jdk .tar.gz versions from
+/var/cache/oracle-jdk11-installer-local
+update-alternatives: error: no alternatives for java
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jaotc to provide /usr/bin/jaotc (jaotc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-oracle/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Oracle JDK 11 installed
+
+#####Important########
+To set Oracle JDK11 as default, install the "oracle-java11-set-default-local" package.
+E.g.: sudo apt install oracle-java11-set-default-local
+```
+
 ## Ruby 
 
 ## VSCode the best editor for me
