@@ -251,6 +251,11 @@ Coloar avaiable.
 | cyan 	|6|
 | white | 7|
 
+My PS1 zsh.
+```shell
+PS1=%F{cyan}[%n%f%F{magenta}@%M]%f %F{yellow}[%~]%f 
+```
+
 ## References:
 
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
@@ -274,4 +279,4 @@ Coloar avaiable.
 ***PS1*** >>> https://wiki.gentoo.org/wiki/Zsh/Guide
 
 
-***COLORS IN PS1*** >>> https://wiki.archlinux.org/index.php/zsh
+***COLORS IN PS1*** >>> https://wiki.archlinux.org/index.php/zsh and http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
