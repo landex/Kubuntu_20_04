@@ -159,7 +159,7 @@ reboot
 Syntax Highlighting
 
 
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_205609.png" alt="drawing" width="50"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_205609.png" alt="drawing" width="150"/>
 
 Now we can add more alias to more colors in terminal.
 In your *.zshrc* file add lines below.
@@ -174,7 +174,7 @@ alias egrep='egrep --color=auto'
 ```
 Result.
 
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="50"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="150"/>
 
 ## References
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
