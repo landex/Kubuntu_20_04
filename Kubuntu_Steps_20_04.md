@@ -259,6 +259,50 @@ PS1=%F{cyan}[%n%f%F{magenta}@%M]%f %F{yellow}[%~]%f
 ## Java from Oracle
 Now we will install Java 11 LTS, I prefer Java from Oracle stead of OpenJDK. To install Java from Oracle follow steps below.
 
+First steps is verify if have any update avaiable. If have please update, running **apt update** and after **apt upgrade**.
+Verify if have updates:
+```shell
+sudo apt update
+```
+To make updates:
+```shell
+sudo apt upgrade
+```
+
+Now we will add repository of Oracle, run command below.
+```shell
+sudo add-apt-repository ppa:linuxuprising/java
+```
+This window will show up, please click in **ENTER**.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_125934.png" alt="drawing" width="250"/>
+
+Now we run two command, update and install see.
+```shell
+sudo apt update
+```
+Output indicate that new repository was add.
+```shell
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+........................                                      
+Hit:5 http://ppa.launchpad.net/linuxuprising/java/ubuntu focal InRelease
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+All packages are up to date.
+```
+
+Run apt to install Java 11.
+```shell
+sudo apt install oracle-java11-installer-local -y
+```
+
+Follow instrunction show in window, ok?
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131223.png" alt="drawing" width="250"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131243.png" alt="drawing" width="250"/>
+
+
 ## Ruby 
 
 ## VSCode the best editor for me
@@ -287,3 +331,5 @@ Now we will install Java 11 LTS, I prefer Java from Oracle stead of OpenJDK. To 
 
 
 ***COLORS IN PS1*** >>> https://wiki.archlinux.org/index.php/zsh and http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
+
+***JAVA*** >>> http://ubuntuhandbook.org/index.php/2018/11/how-to-install-oracle-java-11-in-ubuntu-18-04-18-10/
