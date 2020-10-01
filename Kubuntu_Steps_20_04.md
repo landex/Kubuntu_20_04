@@ -385,6 +385,20 @@ To set Oracle JDK11 as default, install the "oracle-java11-set-default-local" pa
 E.g.: sudo apt install oracle-java11-set-default-local
 ```
 
+To validate if installation was sucess, run command below.
+Verify the version of Java installed.
+```shell
+java -version
+java version "11.0.8" 2020-07-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.8+10-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.8+10-LTS, mixed mode)
+```
+Verify the version of Javac.
+```shell
+javac -version
+javac 11.0.8
+```
+
 ## Ruby 
 
 ## VSCode the best editor for me
