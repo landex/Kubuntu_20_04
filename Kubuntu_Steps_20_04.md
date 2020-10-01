@@ -174,7 +174,7 @@ alias egrep='egrep --color=auto'
 ```
 Result.
 
-<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="150"/>
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20200930_210140.png" alt="drawing" width="250"/>
 
 ## References
 ***KUBUNTU INSTALLATION*** >>> https://userbase.kde.org/Kubuntu/Installation
