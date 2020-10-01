@@ -302,6 +302,23 @@ Follow instrunction show in window, ok?
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131223.png" alt="drawing" width="250"/>
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131242.png" alt="drawing" width="250"/>
 
+**But the installation not work the error will hapen**
+```shell
+please download the Oracle JDK 11 .tar.gz file
+with the same version as this package (version 11.0.4),
+and place it in /var/cache/oracle-jdk11-installer-local,
+
+E.g.:
+sudo mkdir -p /var/cache/oracle-jdk11-installer-local
+sudo cp jdk-11.0.4_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
+sha256sum mismatch jdk-11.0.8_linux-x64_bin.tar.gz
+Oracle JDK 11 is NOT installed.
+```
+Now in this case we need make a download of jdk 11 from Oracle site and copy to directory ***/var/cache/oracle-jdk11-installer-local/***
+
+Make download of this file - ***jdk-11.0.8_linux-x64_bin.tar.gz***
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_131242.png" alt="drawing" width="250"/>
 
 ## Ruby 
 
