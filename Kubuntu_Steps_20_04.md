@@ -413,6 +413,42 @@ ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
 
 ## VSCode the best editor for me!!!
 For me is the best Editor of World, change my mind!!!  (⌐■_■)
+Now talking serious, for me is the best, but if you like other editor, no problem, you can install your favorite editor.
+
+We will add repository first, run command below.
+First add the Microsoft key.
+The OK will be returned indicate successfull.
+```shell
+[youruser@kubuntu] [~] wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+OK
+[youruse@kubuntu] [~] 
+```
+
+Add the repository, running command below.
+
+```shell
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+
+Indication that the repository add are done.
+```shell
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+.................................                                                               
+Get:6 https://packages.microsoft.com/repos/vscode stable InRelease [3.958 B]                                                             
+Get:7 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [201 kB]
+Fetched 312 kB in 3s (90,2 kB/s)   
+Reading package lists... Done
+```
+Installing the **VSCode**.
+```shell
+sudo apt install code -y
+```
+To validate that installation was success, run command ***code*** in your terminal, if editor opened this indicate successfull.
+```shell
+code
+```
+
+
 
 
 ## References:
@@ -447,4 +483,4 @@ For me is the best Editor of World, change my mind!!!  (⌐■_■)
 ***RUBY*** >>> https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
 
 
-***VSCODE*** >>> https://code.visualstudio.com/docs/setup/linux
+***VSCODE*** >>> https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
