@@ -474,6 +474,18 @@ In lef of window click in ***Appearence*** and in righ side of window near of bo
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231635.png" alt="drawing" width="250"/>
 
+Select font window will be opened, now in left near of bottom, click in checkbox to system show all fonts, in square font select the "Fira Code" I prefer the light style, but you can select what the best style for you, and the best size to your eyes. Click in "OK"
+
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231916.png" alt="drawing" width="250"/>
+
+Returned to this window click in "Apply" and "OK".
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231949.png" alt="drawing" width="250"/>
+
+Now is time to testing in your Konsole.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_232201.png" alt="drawing" width="250"/>
 
 ## References:
 
