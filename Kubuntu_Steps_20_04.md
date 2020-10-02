@@ -460,6 +460,22 @@ sudo apt install fonts-firacode
 
 ***Using Fira Code and Ligatures***
 
+In VSCode to change the fonts we need access settings, to this press the command combination ***Control + Comma***.
+This window will be open.
+
+In field *Search Settings* type "Font".
+
+Find field *Editor:Font Ligatures* and click in ***edit in settings.json***
+
+This configuration will be displayed.
+
+Add this config in file and save ***Control + s***
+
+Testing Fira Code and Ligatures in VSCode.
+
+# Is the END!!! Thanks for read this steps.
+
+
 #### In Konsole
 To set up fira code in Konsole, click in *Settings* after click in *Edit Current Profile*.
 
@@ -486,6 +502,9 @@ Returned to this window click in "Apply" and "OK".
 Now is time to testing in your Konsole.
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_232201.png" alt="drawing" width="250"/>
+
+### # Fira Code in VSCode
+
 
 ## References:
 
