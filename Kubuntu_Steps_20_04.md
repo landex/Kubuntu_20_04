@@ -448,7 +448,31 @@ To validate that installation was success, run command ***code*** in your termin
 code
 ```
 
+## Fira Code
+Who don't like Fira Code and Ligatures!?
 
+First Step Install Fira Code. The best notice is the Fira Code works with ***Konsole*** ( ♥ ͜ʖ ♥).
+
+Installation.
+```shell
+sudo apt install fonts-firacode
+```
+
+***Using Fira Code and Ligatures***
+
+#### In Konsole
+To set up fira code in Konsole, click in *Settings* after click in *Edit Current Profile*.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_232523.png" alt="drawing" width="250"/>
+
+This window will be open.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231605.png" alt="drawing" width="250"/>
+
+In lef of window click in ***Appearence*** and in righ side of window near of bottom click in ***Choose*** to select a font.
+
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231635.png" alt="drawing" width="250"/>
 
 
 ## References:
@@ -484,3 +508,8 @@ code
 
 
 ***VSCODE*** >>> https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
+
+***FIRACODE IN KUBUNTU*** >>> https://github.com/tonsky/FiraCode/wiki/Linux-instructions
+
+
+***FIRACODE IN VSCODE*** >>>
