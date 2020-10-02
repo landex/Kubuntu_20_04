@@ -400,8 +400,20 @@ javac 11.0.8
 ```
 
 ## Ruby 
+To use **Ruby** in Kubuntu run command below to install **Ruby**
 
-## VSCode the best editor for me
+```shell
+sudo apt install ruby-full -y
+```
+To validate if ruby was installed with success.
+```shell
+ruby -v
+ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
+``` 
+
+## VSCode the best editor for me!!!
+For me is the best Editor of World, change my mind!!!  (⌐■_■)
+
 
 ## References:
 
@@ -428,4 +440,11 @@ javac 11.0.8
 
 ***COLORS IN PS1*** >>> https://wiki.archlinux.org/index.php/zsh and http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
 
+
 ***JAVA*** >>> http://ubuntuhandbook.org/index.php/2018/11/how-to-install-oracle-java-11-in-ubuntu-18-04-18-10/
+
+
+***RUBY*** >>> https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+
+
+***VSCODE*** >>> https://code.visualstudio.com/docs/setup/linux
