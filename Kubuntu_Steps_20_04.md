@@ -473,8 +473,6 @@ Add this config in file and save ***Control + s***
 
 Testing Fira Code and Ligatures in VSCode.
 
-# Is the END!!! Thanks for read this steps.
-
 
 #### In Konsole
 To set up fira code in Konsole, click in *Settings* after click in *Edit Current Profile*.
@@ -490,18 +488,24 @@ In lef of window click in ***Appearence*** and in righ side of window near of bo
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231635.png" alt="drawing" width="250"/>
 
+
 Select font window will be opened, now in left near of bottom, click in checkbox to system show all fonts, in square font select the "Fira Code" I prefer the light style, but you can select what the best style for you, and the best size to your eyes. Click in "OK"
 
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231916.png" alt="drawing" width="250"/>
 
+
 Returned to this window click in "Apply" and "OK".
+
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_231949.png" alt="drawing" width="250"/>
 
+
 Now is time to testing in your Konsole.
 
+
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_232201.png" alt="drawing" width="250"/>
+
 
 ### # Fira Code in VSCode
 
@@ -509,32 +513,46 @@ Now we will configure the Fira Code and ligatures in ***VSCode***
 
 Type ***Control*** + ***coma*** to open Settings.
 
+
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_204919.png" alt="drawing" width="250"/>
+
 
 In search bar *Search Settings* type ***font*** see example below.
 
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_234547.png" alt="drawing" width="250"/>
 
+
 Scrow down, to find option ***Editor:Font Ligatures*** and click in ***Edit in settings.json***.
+
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_234611.png" alt="drawing" width="250"/>
 
+
 The ***settings.json*** will be open.
+
 
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_205632.png" alt="drawing" width="250"/>
 
+
 Paste this configuration, or changer according your preferences.
+
 ```json
 "editor.fontFamily": "Fira Code",
 "editor.fontSize": 14,
 "editor.fontLigatures": true,
 ```
 Save setting and testing changes.
+
+
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_210024.png" alt="drawing" width="250"/>
 
+
 Changes are done, and testing with success.
+
+
 <img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_210104.png" alt="drawing" width="250"/>
+
 
 ## References:
 
