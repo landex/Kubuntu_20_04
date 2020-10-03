@@ -505,6 +505,36 @@ Now is time to testing in your Konsole.
 
 ### # Fira Code in VSCode
 
+Now we will configure the Fira Code and ligatures in ***VSCode***
+
+Type ***Control*** + ***coma*** to open Settings.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_204919.png" alt="drawing" width="250"/>
+
+In search bar *Search Settings* type ***font*** see example below.
+
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_234547.png" alt="drawing" width="250"/>
+
+Scrow down, to find option ***Editor:Font Ligatures*** and click in ***Edit in settings.json***.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201001_234611.png" alt="drawing" width="250"/>
+
+The ***settings.json*** will be open.
+
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_205632.png" alt="drawing" width="250"/>
+
+Paste this configuration, or changer according your preferences.
+```json
+"editor.fontFamily": "Fira Code",
+"editor.fontSize": 14,
+"editor.fontLigatures": true,
+```
+Save setting and testing changes.
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_210024.png" alt="drawing" width="250"/>
+
+Changes are done, and testing with success.
+<img align="center" src="https://github.com/landex/Kubuntu_20_04/blob/master/images/Screenshot_20201002_210104.png" alt="drawing" width="250"/>
 
 ## References:
 
@@ -540,7 +570,9 @@ Now is time to testing in your Konsole.
 
 ***VSCODE*** >>> https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
 
+
 ***FIRACODE IN KUBUNTU*** >>> https://github.com/tonsky/FiraCode/wiki/Linux-instructions
 
 
-***FIRACODE IN VSCODE*** >>>
+***FIRACODE IN VSCODE*** >>> https://medium.com/@qjli/daily-dev-tips-96-visual-studio-code-how-to-enable-this-new-sexy-fira-code-font-89bafbfa245f
+
